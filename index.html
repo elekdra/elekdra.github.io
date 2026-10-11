@@ -1,273 +1,71 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f3ed">
   <title>Fathima Swaliha — Software Engineer</title>
-  <meta name="description" content="Portfolio of Fathima Swaliha — Software Development Engineer (Oracle). React, .NET Core, Kubernetes, DevOps, Cloud, full-stack." />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+  <meta name="description" content="Fathima Swaliha's portfolio. Software Development Engineer at Oracle, building cloud-native systems, thoughtful interfaces, and automation that makes a difference.">
+  <meta property="og:title" content="Fathima Swaliha — Software Engineer">
+  <meta property="og:description" content="Thoughtful engineering. Meaningful impact. Explore my work in cloud, full-stack development, and automation.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#hero">
-        <div class="avatar" aria-hidden="true">
-          <!-- simple SVG avatar -->
-          <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="avatar">
-            <rect width="120" height="120" rx="18" fill="#0f1724"/>
-            <circle cx="60" cy="40" r="22" fill="#60a5fa"/>
-            <rect x="20" y="72" width="80" height="30" rx="6" fill="#1e293b"/>
-          </svg>
-        </div>
-        <div class="brand-text">
-          <div class="name">Fathima Swaliha</div>
-          <div class="role">Software Development Engineer</div>
-        </div>
-      </a>
-
-      <nav class="nav" id="nav">
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
-        <a href="#contact" class="cta">Contact</a>
+      <a class="brand" href="#hero" aria-label="Fathima Swaliha, home">fs<span>.</span></a>
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact" class="nav-contact">Let’s talk <span aria-hidden="true">↗</span></a>
       </nav>
-
-      <button class="nav-toggle" id="navToggle" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
-        ☰
-      </button>
+      <button class="nav-toggle" id="navToggle" aria-controls="nav" aria-expanded="false" aria-label="Open navigation"><span></span><span></span></button>
     </div>
   </header>
-
-  <main>
+  <main id="main">
     <section id="hero" class="hero container">
-      <div class="hero-left">
-        <h1>Hi — I’m <span>Fathima Swaliha</span></h1>
-        <p class="lead">Software Development Engineer at Oracle. I build cloud-native solutions, automate testing & CI/CD, and develop full‑stack applications.</p>
-
-        <ul class="contact-list">
-          <li><strong>Email:</strong> <a href="mailto:swalitm@gmail.com">swalitm@gmail.com</a></li>
-          <li><strong>Phone:</strong> <a href="tel:+917012605069">(+91) 70126 05069</a></li>
-          <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/elekdra" target="_blank" rel="noopener">linkedin.com/in/elekdra</a></li>
-          <li><strong>GitHub:</strong> <a href="https://github.com/elekdra" target="_blank" rel="noopener">github.com/elekdra</a></li>
-        </ul>
-
-        <p class="actions">
-          <!-- Replace resume.pdf with a real file path if you host one -->
-          <a class="btn primary" href="resume.pdf" download>Download Resume</a>
-          <a class="btn" href="#contact">Get in touch</a>
-        </p>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> SOFTWARE ENGINEER · BANGALORE, INDIA</p>
+        <h1>Thoughtful code.<br><em>Meaningful</em><br>impact<span class="accent">.</span></h1>
+        <p class="hero-intro">Hi, I’m <strong>Fathima Swaliha.</strong> I turn complex problems into elegant software — from cloud-native systems to experiences people love to use.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="text-link" href="#contact">Get in touch <span aria-hidden="true">→</span></a></div>
+        <div class="hero-socials"><span>FIND ME ON</span><a href="https://github.com/elekdra" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://linkedin.com/in/elekdra" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div>
       </div>
-
-      <div class="hero-right">
-        <div class="card summary-card">
-          <h3>Current</h3>
-          <p><strong>Software Development Engineer</strong><br>Oracle — Bangalore (Apr 2023 – Present)</p>
-          <ul>
-            <li>Orchestrated <em>perf4cloud</em> — cloud-native optimization for CIGU business process</li>
-            <li>Cloud monetization work (ECE, BRM) and automation scripts — reduced manual effort by 75%</li>
-            <li>Architected & tuned Argo Workflows; automated CI/CD for cloud testing (80% reduction in manual steps)</li>
-          </ul>
-        </div>
-
-        <div class="card quick-stats">
-          <h4>Core</h4>
-          <p>React • .NET Core • Kubernetes • Docker • GitLab • Python • C#</p>
-        </div>
+      <div class="portrait-composition">
+        <div class="portrait-decoration" aria-hidden="true">✳</div>
+        <figure class="portrait-frame"><img src="assets/fathima-portrait.jpg" alt="Fathima Swaliha smiling in front of a mountain landscape" width="1050" height="1400" fetchpriority="high"><figcaption><span>FATHIMA SWALIHA</span><span>Engineer. Builder. Explorer.</span></figcaption></figure>
+        <div class="portrait-label"><span class="label-icon" aria-hidden="true">&lt;/&gt;</span><div>Building at <strong>Oracle</strong><small>Software Development Engineer</small></div></div>
+        <span class="portrait-note">A little curiosity goes a long way.</span>
       </div>
+      <a class="scroll-cue" href="#about"><span aria-hidden="true">↓</span> THERE’S MORE BELOW</a>
     </section>
-
-    <section id="experience" class="container section">
-      <h2>Experience</h2>
-
-      <article class="exp">
-        <header class="exp-header">
-          <div>
-            <h3>ORACLE Corporation — Software Development Engineer</h3>
-            <p class="muted">Bangalore · April 2023 – Present</p>
-          </div>
-        </header>
-        <ul>
-          <li>Led the perf4cloud project (cloud-native) to optimize CIGU business processes.</li>
-          <li>Worked on Cloud monetization products (ECE, BRM) and built automation scripts — reduced manual effort by ~75%.</li>
-          <li>Architected and tuned multiple Argo workflows for efficient inter-microservice communication.</li>
-          <li>Integrated CI/CD to fully automate cloud automation testing — reduced manual intervention by ~80%.</li>
-          <li>Unit testing, code refactoring, and peer code reviews.</li>
-        </ul>
-      </article>
-
-      <article class="exp">
-        <header class="exp-header">
-          <div>
-            <h3>Tismo Technologies Pvt. Ltd. — Software Development Engineer</h3>
-            <p class="muted">Bangalore · Aug 2021 – Apr 2023</p>
-          </div>
-        </header>
-        <ul>
-          <li>Full-stack development: React (UI), C#, .NET Core (backend).</li>
-          <li>Built RESTful APIs and Raspberry Pi-based Web HMI communicating with firmware via Modbus RS485.</li>
-          <li>Remote access via DDNS; unit tests with Jest/Enzyme and NUnit.</li>
-        </ul>
-      </article>
-
-      <article class="exp">
-        <header class="exp-header">
-          <div>
-            <h3>Indian Institute of Space Science and Technology — Summer Intern</h3>
-            <p class="muted">Trivandrum · Jul 2019 – Aug 2019</p>
-          </div>
-        </header>
-        <p>Converted MATLAB mechanisms-simulation software to Python; used Scilab, OpenGL, Python for animating interconnected 3D bodies.</p>
-      </article>
-
-      <article class="exp">
-        <header class="exp-header">
-          <div>
-            <h3>RedTeam Hacker Academy — Summer Intern</h3>
-            <p class="muted">Kochi · Apr 2020 – May 2020</p>
-          </div>
-        </header>
-        <p>Worked on vulnerability assessment (network, Linux, web app security, wireless security, OSINT). Practiced exploitation and mitigation on Metasploitable targets.</p>
-      </article>
-
-      <article class="exp">
-        <header class="exp-header">
-          <div>
-            <h3>Other Internships</h3>
-          </div>
-        </header>
-        <ul>
-          <li><strong>Tutti Frutti</strong> — scraping tool (Python), business analytics, marketing (May–Jun 2020)</li>
-          <li><strong>MissionEd</strong> — chatbot for student registration with validation & security (May–Jul 2020)</li>
-        </ul>
-      </article>
+    <div class="expertise-strip" aria-label="Areas of expertise"><div class="container"><span>Cloud-native systems</span><i aria-hidden="true">✳</i><span>Full-stack development</span><i aria-hidden="true">✳</i><span>DevOps & automation</span><i aria-hidden="true">✳</i><span>Thoughtful engineering</span></div></div>
+    <section id="about" class="container section about-section">
+      <div class="section-heading reveal"><p class="eyebrow">01 / A LITTLE ABOUT ME</p><h2>Curiosity is the start.<br><em>Building is the fun part.</em></h2></div>
+      <div class="about-content reveal"><p>I’m a software engineer who enjoys connecting the dots between a good idea and a reliable product. My work spans React interfaces, .NET backends, cloud infrastructure, and the automation that keeps it all moving.</p><p>From engineering at Oracle and Tismo to exploring 3D simulation and cybersecurity, I bring a broad perspective and a hands-on approach to solving problems.</p><div class="impact-stats"><div><strong>75<span>%</span></strong><p>Less manual effort<br>through automation</p></div><div><strong>80<span>%</span></strong><p>Fewer manual steps<br>in cloud testing</p></div><div><strong>8.97<span>/10</span></strong><p>B.Tech (Hons.)<br>Computer Science</p></div></div></div>
     </section>
-
+    <section id="experience" class="section experience-section"><div class="container">
+      <div class="section-heading heading-row reveal"><div><p class="eyebrow">02 / THE JOURNEY SO FAR</p><h2>Where I’ve <em>made an impact.</em></h2></div><span class="section-note">GOOD PEOPLE. INTERESTING PROBLEMS.</span></div>
+      <div class="experience-list">
+        <article class="experience-item reveal"><div class="experience-meta"><span class="company-mark oracle-mark">O</span><p>APR 2023 — PRESENT<br><span>Bangalore, India</span></p></div><div class="experience-body"><div class="experience-title"><h3>Oracle</h3><span class="tag current-tag">Current</span></div><h4>Software Development Engineer</h4><p>Building cloud-native solutions and making complex workflows run more smoothly.</p><ul><li>Led perf4cloud to optimize CIGU business processes.</li><li>Automated cloud monetization workflows for ECE and BRM, reducing manual effort by approximately 75%.</li><li>Architected Argo Workflows and integrated CI/CD for cloud testing, reducing manual intervention by approximately 80%.</li><li>Contributed unit tests, refactoring, and peer code reviews.</li></ul><div class="tags"><span>Cloud-native</span><span>Argo Workflows</span><span>CI/CD</span><span>Automation</span></div></div></article>
+        <article class="experience-item reveal"><div class="experience-meta"><span class="company-mark">t.</span><p>AUG 2021 — APR 2023<br><span>Bangalore, India</span></p></div><div class="experience-body"><h3>Tismo Technologies</h3><h4>Software Development Engineer</h4><p>Connecting intuitive interfaces with dependable backend systems.</p><ul><li>Developed full-stack applications with React, C#, and .NET Core.</li><li>Built REST APIs and a Raspberry Pi Web HMI communicating with firmware via Modbus RS485.</li><li>Enabled remote access via DDNS and tested with Jest, Enzyme, and NUnit.</li></ul><div class="tags"><span>React</span><span>.NET Core</span><span>REST APIs</span><span>IoT</span></div></div></article>
+        <details class="earlier-experience reveal"><summary>Earlier chapters <span>Internships · 2019–2020</span><span class="details-plus" aria-hidden="true">+</span></summary><div class="internship-grid"><article><h3>IIST</h3><p class="eyebrow">JUL — AUG 2019 · TRIVANDRUM</p><p>Converted MATLAB mechanism simulation software to Python and animated interconnected 3D bodies with Scilab and OpenGL.</p></article><article><h3>RedTeam Hacker Academy</h3><p class="eyebrow">APR — MAY 2020 · KOCHI</p><p>Explored vulnerability assessment, network and web security, OSINT, and exploitation and mitigation on Metasploitable targets.</p></article><article><h3>Tutti Frutti</h3><p class="eyebrow">MAY — JUN 2020</p><p>Built a Python scraping tool and contributed to business analytics and marketing.</p></article><article><h3>MissionEd</h3><p class="eyebrow">MAY — JUL 2020</p><p>Developed a student registration chatbot with validation and security.</p></article></div></details>
+      </div>
+    </div></section>
     <section id="projects" class="container section">
-      <h2>Projects</h2>
-
-      <div class="grid">
-        <div class="card">
-          <h3>Development of Mechanism Animation Software</h3>
-          <p><strong>Jul – Aug 2019</strong><br>Simulated 3D objects and their joints (car, human model) and animated using Python; tools: Scilab, OpenGL.</p>
-        </div>
-
-        <div class="card">
-          <h3>Oppam</h3>
-          <p><strong>Sep 2020</strong><br>Addressed lack of accurate socio-demographic data; built data collection, processing & visualizations.</p>
-        </div>
-
-        <div class="card">
-          <h3>VAPT (Vulnerability Assessment & Penetration Testing)</h3>
-          <p><strong>Apr 2020</strong><br>Performed security analysis on target server (192.168.1.80) to identify exploitable weaknesses and propose mitigations.</p>
-        </div>
+      <div class="section-heading heading-row reveal"><div><p class="eyebrow">03 / SELECTED PROJECTS</p><h2>Ideas turned into <em>something real.</em></h2></div><a class="text-link" href="https://github.com/elekdra" target="_blank" rel="noopener noreferrer">Visit my GitHub ↗</a></div>
+      <div class="project-grid">
+        <article class="project-card reveal"><div class="project-art art-mechanism" aria-hidden="true"><span class="art-caption">EXPLORING MOTION</span><div class="orbital"><span></span><span></span><span></span><i></i></div><span class="art-bottom">SIMULATION / 3D</span></div><div class="project-content"><p class="eyebrow">01 / JUL — AUG 2019</p><h3>Mechanism Animation</h3><p>Bringing interconnected 3D objects and joints to life through simulation and animation.</p><div class="tags"><span>Python</span><span>Scilab</span><span>OpenGL</span></div></div></article>
+        <article class="project-card reveal"><div class="project-art art-data" aria-hidden="true"><span class="art-caption">MAKING DATA MEANINGFUL</span><div class="data-chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="art-bottom">COLLECT / UNDERSTAND / VISUALIZE</span></div><div class="project-content"><p class="eyebrow">02 / SEP 2020</p><h3>Oppam</h3><p>Addressing gaps in socio-demographic data with collection, processing, and clear visualizations.</p><div class="tags"><span>Data collection</span><span>Analytics</span><span>Visualization</span></div></div></article>
+        <article class="project-card reveal"><div class="project-art art-security" aria-hidden="true"><span class="art-caption">A CLOSER LOOK AT SECURITY</span><div class="security-radar"><i></i><b></b><span>+</span></div><span class="art-bottom">ASSESS / TEST / PROTECT</span></div><div class="project-content"><p class="eyebrow">03 / APR 2020</p><h3>Security Assessment</h3><p>Identifying exploitable server weaknesses through vulnerability assessment and penetration testing.</p><div class="tags"><span>VAPT</span><span>Linux</span><span>Network security</span></div></div></article>
       </div>
     </section>
-
-    <section id="skills" class="container section">
-      <h2>Skills</h2>
-
-      <div class="skills-grid">
-        <div>
-          <h4>Languages & Frameworks</h4>
-          <p>Java, Python, C, C++, C#, .NET Core, .NET MAUI, React, JavaScript, XAML, CoreWCF</p>
-        </div>
-
-        <div>
-          <h4>Web & Databases</h4>
-          <p>HTML, CSS, RESTful APIs, MySQL</p>
-        </div>
-
-        <div>
-          <h4>DevOps & Tools</h4>
-          <p>Kubernetes, Docker, Podman, GitLab, Git, Grafana, Loki</p>
-        </div>
-
-        <div>
-          <h4>Other</h4>
-          <p>LaTeX, Scilab, OpenGL, Modbus RS485, Unit testing (Jest, Enzyme, NUnit)</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="education" class="container section">
-      <h2>Education</h2>
-
-      <div class="card">
-        <h3>TKM College of Engineering, Kollam — B.Tech (Hons.) in CSE</h3>
-        <p>Aug 2017 – Aug 2021 · CGPA: 8.97/10</p>
-      </div>
-
-      <div class="card">
-        <h3>HMYHSS, Manjeri — HSE</h3>
-        <p>Jun 2014 – Aug 2016 · CGPA: 9.8/10</p>
-      </div>
-    </section>
-
-    <section id="extras" class="container section">
-      <div class="two-col">
-        <div>
-          <h2>Achievements</h2>
-          <ul>
-            <li>CTF by IEEE Kerala Section — 1st Runner Up</li>
-            <li>Code in Lockdown (IEEE) — Rank 50</li>
-            <li>Reboot Kerala Hackathon — Winner 2020</li>
-          </ul>
-        </div>
-
-        <div>
-          <h2>Extracurricular</h2>
-          <ul>
-            <li>Active member: IEDC, IEEE, ACM</li>
-            <li>Coordinator — Ethical Hacking & Raspberry Pi IoT workshops</li>
-            <li>Coordinated Debian Packaging workshop for IEEE hub meet</li>
-            <li>Execom member of IEI</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="container section">
-      <h2>Contact</h2>
-      <div class="contact-grid">
-        <form class="contact-form" action="mailto:swalitm@gmail.com" method="post" enctype="text/plain">
-          <label>
-            Your name
-            <input type="text" name="name" required placeholder="Your name">
-          </label>
-          <label>
-            Your email
-            <input type="email" name="email" required placeholder="you@example.com">
-          </label>
-          <label>
-            Message
-            <textarea name="message" rows="5" required placeholder="Hi Fathima — I'd like to..."></textarea>
-          </label>
-          <div class="form-actions">
-            <button type="submit" class="btn primary">Send</button>
-            <a class="btn" href="mailto:swalitm@gmail.com">Or email directly</a>
-          </div>
-        </form>
-
-        <aside class="contact-aside">
-          <h3>Quick</h3>
-          <p><strong>Email:</strong> <a href="mailto:swalitm@gmail.com">swalitm@gmail.com</a></p>
-          <p><strong>Phone:</strong> <a href="tel:+917012605069">(+91) 70126 05069</a></p>
-          <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/elekdra" target="_blank" rel="noopener">linkedin.com/in/elekdra</a></p>
-          <p><strong>GitHub:</strong> <a href="https://github.com/elekdra" target="_blank" rel="noopener">github.com/elekdra</a></p>
-        </aside>
-      </div>
-    </section>
-
-    <footer class="site-footer">
-      <div class="container">
-        <p>© <span id="year"></span> Fathima Swaliha — Built with ❤️ & code</p>
-        <p class="muted">This is a generated portfolio based on the resume content provided.</p>
-      </div>
-    </footer>
+    <section id="skills" class="section skills-section"><div class="container skills-layout"><div class="section-heading reveal"><p class="eyebrow">04 / MY TOOLKIT</p><h2>The right tools.<br><em>A builder’s mindset.</em></h2><p class="section-description">A versatile stack for everything between the interface and the infrastructure.</p></div><div class="skill-groups reveal"><div><h3><span>01</span> Languages & frameworks</h3><p>Python · Java · C · C++ · C# · JavaScript · React · .NET Core · .NET MAUI · XAML · CoreWCF</p></div><div><h3><span>02</span> Web & data</h3><p>HTML · CSS · RESTful APIs · MySQL</p></div><div><h3><span>03</span> Cloud & DevOps</h3><p>Kubernetes · Docker · Podman · GitLab · Git · Grafana · Loki · Argo Workflows</p></div><div><h3><span>04</span> Testing & beyond</h3><p>Jest · Enzyme · NUnit · OpenGL · Scilab · Modbus RS485 · LaTeX</p></div></div></div></section>
+    <section id="education" class="container section foundations-section"><div class="reveal"><p class="eyebrow">05 / STRONG FOUNDATIONS</p><h2>Always <em>learning.</em></h2><div class="education-item"><h3>TKM College of Engineering</h3><p>B.Tech (Hons.) in Computer Science & Engineering</p><div><span>2017 — 2021 · Kollam</span><strong>8.97 / 10 CGPA</strong></div></div><div class="education-item"><h3>HMYHSS, Manjeri</h3><p>Higher Secondary Education</p><div><span>2014 — 2016</span><strong>9.8 / 10 CGPA</strong></div></div></div><div class="reveal achievements"><p class="eyebrow">BEYOND THE EVERYDAY</p><h2>A few <em>highlights.</em></h2><ul class="awards-list"><li><span aria-hidden="true">↗</span><div><h3>Reboot Kerala Hackathon</h3><p>Winner · 2020</p></div></li><li><span aria-hidden="true">↗</span><div><h3>IEEE Kerala Section CTF</h3><p>1st Runner Up</p></div></li><li><span aria-hidden="true">↗</span><div><h3>Code in Lockdown · IEEE</h3><p>Rank 50</p></div></li></ul><p class="community-note">Active in IEDC, IEEE, and ACM; IEI executive committee member. Coordinated ethical hacking, Raspberry Pi IoT, and Debian packaging workshops.</p></div></section>
+    <section id="contact" class="contact-section"><div class="container reveal"><p class="eyebrow">06 / LET’S CONNECT</p><h2>Something in mind?<br><em>Let’s build on it.</em> <span aria-hidden="true">↗</span></h2><div class="contact-bottom"><div><p>Have an interesting idea or just want to say hello?</p><a class="email-link" href="mailto:swalitm@gmail.com">swalitm@gmail.com <span aria-hidden="true">↗</span></a></div><div class="contact-links"><a href="https://linkedin.com/in/elekdra" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/elekdra" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="tel:+917012605069">+91 70126 05069 ↗</a></div></div></div></section>
   </main>
-
-  <script src="script.js"></script>
+  <footer class="site-footer container"><a class="brand" href="#hero" aria-label="Back to top">fs<span>.</span></a><p>© <span id="year">2026</span> Fathima Swaliha. Made with care & curiosity.</p><a class="back-top" href="#hero">Back to top ↑</a></footer>
 </body>
 </html>
